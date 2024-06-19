@@ -1,0 +1,106 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100;
+    height: 100vh;
+    background-color: #fffcfcf0;
+}
+
+.box1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position: relative;
+}
+
+.para-box{
+    width: 40%;
+    height: 10rem;
+    position: relative;
+    top: 6rem;
+    left: 5rem;
+}
+
+.para-box p{
+    font-size: 1.5rem;
+    position: absolute;
+    font-weight: 600;
+    left: 6rem;
+}
+
+.photo-box{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 9rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.photo-box img{
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 50%;
+}
+
+.box2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.first-box2{
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.first-box2 img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: relative;
+    top: 3.5rem;
+}
+
+.first-box2 p{
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 4rem;
+}
+
+.photo-box2 img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    position: relative;
+    top: 5rem;
+}
+
+.main-para{
+    margin: 0;
+    font-size: 10rem;
+    position: relative;
+    left: 15rem;
+    bottom: 9rem;
+    
+}
+i{
+    margin: 0;
+    font-size: 7rem;
+    position: relative;
+    left: 15rem;
+    bottom: 3rem;
+   
+    
+    
+
+    
+}
